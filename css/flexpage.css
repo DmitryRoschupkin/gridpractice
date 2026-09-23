@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+}
+
+.pricelist {
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.pricelist__item {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.pricelist__item-featured {
+    padding: 40px 24px;
+    transform: scale(1.05);
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
